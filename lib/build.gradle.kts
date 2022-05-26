@@ -39,13 +39,13 @@ dependencies {
 josm {
   pluginName = "WebpPlugin"
   josmCompileVersion = "18427"
+  packIntoJarFileFilter = { it.exclude("META-INF/maven/*").exclude("META-INF/MANIFEST.MF") }
   manifest {
     description = "Adds support for webp image handling"
     mainClass = "org.openstreetmap.josm.plugins.webp.WebpPlugin"
     minJosmVersion = "18427"
     author = "ramSeraph"
     website = uri("https://gtihub.com/ramSeraph/josm-webp-plugin").toURL()
-
   }
 }
 
