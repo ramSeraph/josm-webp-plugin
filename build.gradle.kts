@@ -38,7 +38,7 @@ dependencies {
 
 josm {
   pluginName = "WebpPlugin"
-  josmCompileVersion = "18427"
+  josmCompileVersion = "18463"
   packIntoJarFileFilter = { it.exclude("META-INF/maven/*").exclude("META-INF/MANIFEST.MF") }
   manifest {
     description = "Adds support for webp image handling"
