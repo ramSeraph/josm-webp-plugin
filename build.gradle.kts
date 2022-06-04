@@ -6,7 +6,7 @@
  * User Manual available at https://docs.gradle.org/7.4.2/userguide/building_java_projects.html
  */
 
-version = "v0.0.2"
+version = "v0.0.3"
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     `java`
@@ -39,6 +39,7 @@ josm {
     minJosmVersion = "18463"
     author = "ramSeraph"
     includeLinksToGithubReleases = true
+    loadEarly = true
     website = uri("https://github.com/ramSeraph/josm-webp-plugin").toURL()
   }
   github {
@@ -47,3 +48,4 @@ josm {
       targetCommitish = "main"
   }
 }
+
