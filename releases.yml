@@ -5,4 +5,9 @@ releases:
     minJosmVersion: 18463
     # optional: a release description. You may refer to github issues.
     description: Initial Release
+  - label: v0.0.2
+    # mandatory: the lowest josm version this plugin release is compatible with
+    minJosmVersion: 18463
+    # optional: a release description. You may refer to github issues.
+    description: fixes description link
 
