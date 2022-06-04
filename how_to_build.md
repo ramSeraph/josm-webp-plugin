@@ -38,7 +38,7 @@ $ ./gradlew createGithubRelease
 
 4. Build the plugin
 ```bash
-$ ./gradlew clean build
+$ ./gradlew clean build -x test
 ```
 
 4. Publish the plugin to the Github releases
@@ -53,5 +53,5 @@ release: [https://github.com/ramSeraph/josm-webp-plugin/releases]
 
 
 * Open [https://josm.openstreetmap.de/wiki/PluginsSource]
-* Edit the page and update the link to the `contourmerge.jar`
+* Edit the page and update the link to the `WebpPlugin.jar`
 

@@ -44,5 +44,6 @@ josm {
   github {
       repositoryName = "josm-webp-plugin"
       repositoryOwner = "ramSeraph"
+      targetCommitish = "main"
   }
 }
