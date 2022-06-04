@@ -6,13 +6,14 @@
  * User Manual available at https://docs.gradle.org/7.4.2/userguide/building_java_projects.html
  */
 
-project.version = "0.0.1"
+version = "v0.0.1"
 plugins {
     // Apply the java-library plugin for API and implementation separation.
-    `java-library`
-     id("org.openstreetmap.josm") version "0.8.0"
+    `java`
+     id("org.openstreetmap.josm") version "0.8.2"
 }
 
+base.archivesBaseName = "webp"
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(8))
@@ -25,27 +26,23 @@ repositories {
 }
 
 dependencies {
-    // Use JUnit test framework.
-    // testImplementation("junit:junit:4.13.2")
-
-    // This dependency is exported to consumers, that is to say found on their compile classpath.
-    // api("org.apache.commons:commons-math3:3.6.1")
     packIntoJar("org.sejda.imageio:webp-imageio:0.1.6")
-
-    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
-    // implementation("com.google.guava:guava:30.1.1-jre")
 }
 
 josm {
-  pluginName = "WebpPlugin"
+  pluginName = "webp"
   josmCompileVersion = "18463"
   packIntoJarFileFilter = { it.exclude("META-INF/maven/*").exclude("META-INF/MANIFEST.MF") }
   manifest {
     description = "Adds support for webp image handling"
     mainClass = "org.openstreetmap.josm.plugins.webp.WebpPlugin"
-    minJosmVersion = "18427"
+    minJosmVersion = "18463"
     author = "ramSeraph"
+    includeLinksToGithubReleases = true
     website = uri("https://gtihub.com/ramSeraph/josm-webp-plugin").toURL()
   }
+  github {
+      repositoryName = "josm-webp-plugin"
+      repositoryOwner = "ramSeraph"
+  }
 }
-
