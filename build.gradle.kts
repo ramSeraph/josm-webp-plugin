@@ -6,7 +6,7 @@
  * User Manual available at https://docs.gradle.org/7.4.2/userguide/building_java_projects.html
  */
 
-version = "v0.0.3"
+version = "v0.0.4"
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     `java`

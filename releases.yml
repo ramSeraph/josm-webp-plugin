@@ -11,4 +11,6 @@ releases:
   - label: v0.0.3
     minJosmVersion: 18463
     description: load early
-
+  - label: v0.0.4
+    minJosmVersion: 18463
+    description: scan for imageio plugins on load
