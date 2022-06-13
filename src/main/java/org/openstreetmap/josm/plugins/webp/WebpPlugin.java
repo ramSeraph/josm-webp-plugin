@@ -14,6 +14,7 @@ public class WebpPlugin extends Plugin {
    */
   public WebpPlugin(PluginInformation info) {
      super(info);
+     // from the discussion with taylor.smock @ https://josm.openstreetmap.de/ticket/14361
      ImageIO.scanForPlugins();
      String names[] = ImageIO.getReaderFormatNames();
      for (int i = 0; i < names.length; ++i) {
