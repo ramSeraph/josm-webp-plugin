@@ -9,6 +9,6 @@ Should work with:
 
 [How to build](how_to_build.md)
 
-[LICENSE](LICENSE) - Published under GPL Version 3 and higher - because JOSM
+[LICENSE](LICENSE) - Published under GPL Version 3 - because JOSM
 
 Some of the release code has been copied from [Gubaer/josm-contourmerge-plugin](https://github.com/Gubaer/josm-contourmerge-plugin)
