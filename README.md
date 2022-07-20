@@ -7,7 +7,7 @@ Should work with:
 * linux (64 bit)
 * mac (64 bit) - both x86 and apple silicon( the x86 dylib works.. surprisingly )
 
-[How to build](how-to-build.md)
+[How to build](how_to_build.md)
 
 [LICENSE](LICENSE) - Published under GPL Version 3 and higher - because JOSM
 
