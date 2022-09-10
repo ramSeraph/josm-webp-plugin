@@ -40,6 +40,7 @@ josm {
     author = "ramSeraph"
     includeLinksToGithubReleases = true
     loadEarly = true
+    // loadPriority = 10
     website = uri("https://github.com/ramSeraph/josm-webp-plugin").toURL()
   }
   github {

@@ -45,6 +45,9 @@ $ ./gradlew clean build -x test
 
 The plugin is published to the release for the current release label.
 
+add the following line to `~/.gradle/gradle.properties`
+`josm.github.accessToken=<your_github_release_token>`
+
 ```bash
 $ ./gradlew publishToGithubRelease
 ```
