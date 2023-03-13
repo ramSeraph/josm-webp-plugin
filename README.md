@@ -5,7 +5,9 @@ This is just a wrapper around the `imageio` plugin from [sejda-pdf/webp-imageio]
 Should work with:
 * windows (32, 64 bit)
 * linux (64 bit)
-* mac (64 bit) - both x86 and apple silicon( the x86 dylib works.. surprisingly )
+* mac (64 bit) - only x86
+
+Failures have been reported with mac (64 bit) apple silicon.
 
 [How to build](how_to_build.md)
 
