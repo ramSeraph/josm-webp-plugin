@@ -1,3 +1,6 @@
+
+** Deprecated in favour of [ImageIO](https://josm.openstreetmap.de/browser/osm/applications/editors/josm/plugins/imageio)  plugin **
+
 Contains plugin to add `webp` image file format support to `JOSM`
 
 This is just a wrapper around the `imageio` plugin from [sejda-pdf/webp-imageio](https://github.com/sejda-pdf/webp-imageio)
