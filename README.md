@@ -1,5 +1,5 @@
 
-** Deprecated in favour of [ImageIO](https://josm.openstreetmap.de/browser/osm/applications/editors/josm/plugins/imageio)  plugin **
+**Deprecated in favour of [ImageIO](https://josm.openstreetmap.de/browser/osm/applications/editors/josm/plugins/imageio) plugin**
 
 Contains plugin to add `webp` image file format support to `JOSM`
 
